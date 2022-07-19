@@ -37,3 +37,64 @@ body {
   border-radius: 5px;
   margin-left: 40px;
 }
+/* -------
+ Upcoming match 
+ ------- */
+.upcoming-match {
+  background-color: #161616;
+  display: inline;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+}
+aside {
+  background-color: #161616;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin-left: 135px;
+  padding: 30px 20px;
+  position: sticky;
+  top: 10px;
+  /* margin-bottom: 30px; */
+}
+aside a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 10px 10px;
+  color: black;
+  /* transition: 0.3s; */
+}
+aside .all-blog {
+  background-color: red;
+}
+
+.section-blog {
+  display: flex;
+}
+.fonts {
+  display: flex;
+  /* justify-content: space-around; */
+}
+.blog-texts h4 {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+}
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  /* margin-right: 1035px; */
+  width: 70%;
+  grid-gap: 30px;
+}
+.blogs-content {
+  width: 100%;
+}
