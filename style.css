@@ -68,7 +68,7 @@ aside a {
   font-weight: bold;
   margin: 10px 10px;
   color: black;
-  /* transition: 0.3s; */
+  transition: 1s;
 }
 aside .all-blog {
   background-color: red;
@@ -76,6 +76,7 @@ aside .all-blog {
 
 .section-blog {
   display: flex;
+  /* justify-content: space-evenly; */
 }
 .fonts {
   display: flex;
@@ -84,8 +85,18 @@ aside .all-blog {
 .blog-texts h4 {
   border: 1px solid black;
   display: inline-block;
-  padding: 5px;
+  padding: 5px 15px;
   border-radius: 5px;
+}
+.blog-texts h4:hover {
+  background-color: lightcoral;
+}
+.blog-texts h3 {
+  margin: -10px auto;
+  line-height: 20px;
+}
+.blog-texts .fonts {
+  margin-top: 15px;
 }
 .blog-container {
   display: grid;
@@ -95,6 +106,6 @@ aside .all-blog {
   width: 70%;
   grid-gap: 30px;
 }
-.blogs-content {
-  width: 100%;
+.blogs-content img {
+  width: 80%;
 }
