@@ -1,3 +1,39 @@
 body {
-  background-color: lightgreen;
+  font-family: "Josefin Sans", sans-serif;
+}
+/* .hero-section {
+  display: flex;
+} */
+.container {
+  background-color: #161616;
+  color: white;
+  width: 1021px;
+  height: 470px;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 30px;
+  display: flex;
+}
+
+.container h2 {
+  font-size: 60px;
+  padding-left: 40px;
+}
+.container p {
+  padding-left: 40px;
+  line-height: 20px;
+  padding-bottom: 25px;
+}
+.container img {
+  width: 450px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.container a {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-left: 40px;
 }
