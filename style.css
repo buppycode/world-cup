@@ -75,9 +75,9 @@ aside .all-blog {
 
 .section-blog {
   display: flex;
-  margin-top: 200px;
-  /* justify-content: space-evenly; */
+  margin-top: 70px;
 }
+
 .fonts {
   display: flex;
   /* justify-content: space-around; */
@@ -166,6 +166,10 @@ footer .social-icon {
   .blog-container {
     grid-template-columns: repeat(2, 1fr);
   }
+  .section-blog {
+    display: flex;
+    margin-top: 150px;
+  }
   .section-blog aside {
     position: absolute;
     display: flex;
@@ -174,4 +178,27 @@ footer .social-icon {
     margin-top: 570px;
     background-color: rgb(210, 243, 255);
   }
+  .section-blog aside a {
+    /* border: 1px solid black; */
+    box-shadow: 0 0 10px grey;
+    padding: 15px 50px;
+    background-color: rgb(210, 243, 255);
+  }
+  .section-blog aside .all-blog {
+    background-color: red;
+  }
+  .blogs-content {
+    margin-left: 50px;
+  }
+  /* aside a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    transition: 1s;
+    margin: 10px 10px;
+  } */
 }
