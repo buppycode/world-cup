@@ -82,6 +82,9 @@ aside .all-blog {
   display: flex;
   /* justify-content: space-around; */
 }
+.massage-div {
+  margin-left: 35px;
+}
 .blog-texts h4 {
   border: 1px solid black;
   display: inline-block;
@@ -98,6 +101,11 @@ aside .all-blog {
 .blog-texts .fonts {
   margin-top: 15px;
 }
+.blog-img img {
+  /* border-radius: 10px; */
+  height: 150px;
+  width: 220px;
+}
 .blog-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -107,5 +115,35 @@ aside .all-blog {
   grid-gap: 30px;
 }
 .blogs-content img {
-  width: 80%;
+  width: 100%;
+  border-radius: 10px;
+}
+.blogs-content {
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px grey;
+  padding: 15px;
+  margin-bottom: 60px;
+}
+/* ----- 
+Footer
+-------- */
+footer {
+  background-color: #161616;
+  padding: 140px;
+}
+footer h2 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+footer a {
+  text-decoration: none;
+  color: #b9b9b9;
+  margin: 20px;
+  margin-left: 40px;
+}
+footer hr {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 35px;
 }
