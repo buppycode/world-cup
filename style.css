@@ -1,9 +1,8 @@
 body {
   font-family: "Josefin Sans", sans-serif;
+  background-color: rgb(210, 243, 255);
 }
-/* .hero-section {
-  display: flex;
-} */
+
 .container {
   background-color: #161616;
   color: white;
@@ -62,13 +61,13 @@ aside {
 aside a {
   display: inline-block;
   text-decoration: none;
-  background-color: white;
   padding: 15px 30px;
-  border-radius: 10px;
-  font-weight: bold;
-  margin: 10px 10px;
   color: black;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px;
   transition: 1s;
+  margin: 10px 10px;
 }
 aside .all-blog {
   background-color: red;
@@ -76,6 +75,7 @@ aside .all-blog {
 
 .section-blog {
   display: flex;
+  margin-top: 200px;
   /* justify-content: space-evenly; */
 }
 .fonts {
@@ -110,7 +110,6 @@ aside .all-blog {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: auto;
-  /* margin-right: 1035px; */
   width: 70%;
   grid-gap: 30px;
 }
@@ -146,4 +145,33 @@ footer hr {
   width: 90%;
   margin: auto;
   margin-bottom: 35px;
+}
+footer .social-icon {
+  color: white;
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+/* ------
+ Responsiveness
+ --------- */
+@media screen and (max-width: 576px) {
+  .blog-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .blog-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section-blog aside {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    margin-top: 570px;
+    background-color: rgb(210, 243, 255);
+  }
 }
