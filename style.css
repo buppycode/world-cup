@@ -135,6 +135,12 @@ footer h2 {
   color: white;
   font-size: 40px;
 }
+footer h3 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-top: 55px;
+}
 footer a {
   text-decoration: none;
   color: #b9b9b9;
@@ -147,18 +153,44 @@ footer hr {
   margin-bottom: 35px;
 }
 footer .social-icon {
-  color: white;
-  margin-top: 85px;
+  /* color: blue; */
+  margin-top: 45px;
   display: flex;
   justify-content: space-between;
   font-size: 30px;
 }
+
 /* ------
  Responsiveness
  --------- */
 @media screen and (max-width: 576px) {
   .blog-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .container {
+    flex-direction: column;
+  
+  
+  .section-blog aside {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    margin-top: 570px;
+    background: none;
+    /* background-color: rgb(210, 243, 255); */
+    margin-left: 150px;
+    margin-right: 150px;
+    /* margin-bottom: -720px; */
+  }
+  .section-blog aside a {
+    /* border: 1px solid black; */
+    box-shadow: 0 0 10px grey;
+    padding: 15px 50px;
+    background-color: rgb(210, 243, 255);
+  }
+  .section-blog aside .all-blog {
+    background-color: red;
   }
 }
 
@@ -177,6 +209,8 @@ footer .social-icon {
     height: 70px;
     margin-top: 570px;
     background-color: rgb(210, 243, 255);
+    margin-left: 150px;
+    margin-right: 150px;
   }
   .section-blog aside a {
     /* border: 1px solid black; */
@@ -190,15 +224,9 @@ footer .social-icon {
   .blogs-content {
     margin-left: 50px;
   }
-  /* aside a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 15px 30px;
-    color: black;
-    font-weight: bold;
-    background-color: white;
-    border-radius: 10px;
-    transition: 1s;
-    margin: 10px 10px;
-  } */
+  .container img {
+    width: 400px;
+    margin-left: 15px;
+    margin-top: 72px;
+  }
 }
